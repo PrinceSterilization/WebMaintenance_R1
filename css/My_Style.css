@@ -1,0 +1,357 @@
+﻿html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: Calibri, "Roboto Condensed", sans-serif;
+}
+
+.borderless table {
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+}
+
+.borderless td, .borderless th {
+    border: none;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted #a11616;
+}
+
+    .tooltip .tooltiptext {
+        visibility: hidden;
+        width: 350px;
+        background-color: #003366;
+        color: #ffffff;
+        font-style: italic;
+        font-size: small;
+        font-weight: bold;
+        text-align: center;
+        border-radius: 6px;
+        padding: 5px 0;
+        border: 2px solid #777777;
+        /* Position the tooltip */
+        position: absolute;
+        z-index: 1;
+    }
+
+    .tooltip:hover .tooltiptext {
+        visibility: visible;
+    }
+
+/*Style for Buttons Add(Remove) To(From) List Control */
+.btnAddAll {
+    font-weight: bold;
+    font-size: small;
+    color: darkcyan;
+    width: 25px;
+    text-align: center;
+}
+
+.btnAddSelected {
+    font-weight: bold;
+    font-size: small;
+    color: cadetblue;
+    width: 25px;
+    text-align: center;
+}
+
+.btnRemoveAll {
+    font-weight: bold;
+    font-size: small;
+    color: brown;
+    width: 25px;
+    text-align: center;
+}
+
+.btnRemoveSelected {
+    font-weight: bold;
+    font-size: small;
+    color: crimson;
+    width: 25px;
+    text-align: center;
+}
+
+.lstBoxStyle {
+    width: 200px;
+    height: 250px;
+    overflow: auto;
+}
+
+/*Formatting GridView Column*/
+.formatCurrency {
+    DataFormatString: '{0:N1}';
+}
+
+#T1 {
+    width: 864pt;
+    border-collapse: collapse;
+}
+
+#T1, tr {
+    height: 29.75pt;
+}
+
+#T1, th, td {
+    vertical-align: middle;
+    white-space: nowrap;
+    font-size: 11.0pt;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+#T2 {
+    width: 690pt;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+#T2, tr {
+    height: 29.75pt;
+}
+
+#T2, th, td {
+    vertical-align: middle;
+    font-size: 11.0pt;
+    padding: 10px;
+    white-space: normal;
+}
+
+#T3 {
+    width: 250pt;
+    border-collapse: collapse;
+}
+
+
+
+
+
+
+.auto-style1 {
+    width: 109pt;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.auto-style2 {
+    width: 186pt;
+    color: black;
+    font-weight: 700;
+    text-align: center;
+}
+/*HEADERS STYLE*/
+.auto-style3 {
+    width: 186pt;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    background: #DDEBF7;
+}
+
+.auto-style4 {
+    width: 186pt;
+    font-weight: 700;
+    text-align: center;
+    background: #4BD0FF;
+}
+
+.auto-style5 {
+    width: 62pt;
+    font-weight: 700;
+    text-align: center;
+}
+
+.auto-style6 {
+    width: 120pt;
+    font-weight: 700;
+    text-align: center;
+}
+
+.auto-style7 {
+    width: 90pt;
+    font-weight: 700;
+    text-align: center;
+}
+
+.auto-style10 {
+    font-weight: 700;
+    text-align: left;
+    background: #DDEBF7;
+}
+
+.auto-style11 {
+    font-weight: 400;
+    text-align: right;
+    background: #DDEBF7;
+}
+
+.auto-style14 {
+    background: #FFF2CC;
+    font-weight: 700;
+    text-align: left;
+}
+
+.auto-style15 {
+    font-weight: 400;
+    text-align: right;
+    background: #FFF2CC;
+}
+
+.auto-style18 {
+    background: #F2F2F2;
+    font-weight: 700;
+    text-align: left;
+}
+
+.auto-style19 {
+    background: #F2F2F2;
+    font-weight: 400;
+    text-align: right;
+}
+
+.auto-style22 {
+    background: #FCE4D6;
+    font-weight: 700;
+    text-align: left;
+}
+
+.auto-style23 {
+    background: #FCE4D6;
+    font-weight: 400;
+    text-align: right;
+}
+
+.auto-style26 {
+    font-weight: 700;
+    text-align: left;
+}
+
+.auto-style27 {
+    font-weight: 400;
+    text-align: right;
+}
+
+.auto-style30 {
+    background: #E2EFDA;
+    font-weight: 700;
+    text-align: left;
+}
+
+.auto-style31 {
+    background: #E2EFDA;
+    font-weight: 400;
+    text-align: right;
+}
+
+
+/*WAREHOUSE form STYLE*/
+.section_Preview_Header {
+    color: #006699;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.section_Header {
+    color: orangered;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+
+/*WAREHOUSE MAP STYLE*/
+.available_Cell {
+    Border-Color: #33CC33;
+    Border-Style: Solid;
+    Border-Width: 2px;
+}
+
+.partially_available_Cell {
+    Border-Color: #b200ff;
+    Border-Style: Solid;
+    Border-Width: 2px;
+}
+
+.occupied_Cell {
+    Border-Color: #a11616;
+    Border-Style: Solid;
+    Border-Width: 2px;
+}
+
+.selected_Cell {
+    /*Border-Color: orangered;
+    Border-Style: Solid;
+    Border-Width: 2px;*/
+    background-color: #FCE4D6;
+}
+
+.available_Cell {
+    Border-Color: #33CC33;
+    Border-Style: Solid;
+    Border-Width: 2px;
+}
+
+.Available {
+    Border-Color: #33CC33;
+    Border-Style: Solid;
+    Border-Width: 2px;
+}
+
+.Occupied {
+    Border-Color: #a11616;
+    Border-Style: Solid;
+    Border-Width: 2px;
+}
+
+.na {
+}
+/*FORM STYLE*/
+.save_Button {
+    background-color: #336699;
+    color: white;
+    font-weight: 700;
+}
+
+.cancel_Button {
+    background-color: white;
+    font-weight: 700;
+}
+
+.upload_Button {
+    background-color: #336699;
+    color: white;
+    font-weight: 700;
+}
+
+.action_Button {
+    font-size: medium;
+    color: orangered;
+    font-weight: 400;
+}
+/*MARQUEE STYPE*/
+.holder {
+    background: #ccc;
+    padding: 0.5rem;
+    overflow: hidden;
+}
+
+.news {
+    animation: slide 10s s infinite;
+}
+
+@keyframes slide {
+    0% {
+        transform: translatex(0%)
+    }
+
+    100% {
+        transform: translatex(100%)
+    }
+}
