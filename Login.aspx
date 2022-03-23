@@ -18,13 +18,13 @@
     <form id="form1" runat="server">
         <table class="borderless" style="width: 1200px;">
             <tr>
-                <th> <%--style="align-items: center; vertical-align: middle; width: 99%; border: none;"--%>
+                <th><%--style="align-items: center; vertical-align: middle; width: 99%; border: none;"--%>
                     <div class="row" style="align-items: center;">
                         <div class="col-md-2">&nbsp;</div>
                         <div class="col-md-8" style="align-content: center; align-items: center; align-self: center;">
                             <h1>
                                 <img src="<%=ResolveClientUrl("img/PSS_xSmall.jpg")%>" />
-                                WEB MAINTENANCE</h1>                            
+                                WEB MAINTENANCE</h1>
                             <hr style="border: thin solid #003366;" />
                             <h2><%: Title %></h2>
                         </div>
@@ -65,7 +65,6 @@
                                             <asp:TextBox ID="txtUserEmail" runat="server" Width="250px" />
                                         </div>
                                         <div class="col-md-6">
-                                            
                                         </div>
                                     </div>
                                     <div class="row" style="margin-top: 20px;">
@@ -77,7 +76,6 @@
                                             <asp:TextBox ID="txtPsw" runat="server" Width="250px" TextMode="Password" />
                                         </div>
                                         <div class="col-md-6">
-                                            
                                         </div>
                                     </div>
                                     <div class="row" style="margin-top: 20px;">
@@ -91,7 +89,7 @@
                                     <div class="row">
                                         <div class="col-md-12">
                                             <asp:Image ID="Image3" runat="server" BorderWidth="0px" ImageUrl="~/img/forgot_pw.png" />
-                                            <asp:LinkButton ID="lbtnForgotPsw" runat="server" CausesValidation="False" ForeColor="#0066CC" OnClick="lbtnForgotPsw_Click">Forgot Password</asp:LinkButton>
+                                            <asp:LinkButton ID="lbtnForgotPsw" runat="server" CausesValidation="False" ForeColor="#0066CC">Forgot Password</asp:LinkButton>
                                         </div>
                                     </div>
 
@@ -129,8 +127,16 @@
                         </div>
                         <div class="col-md-2">&nbsp;</div>
                     </div>
-
-
+                    <div class="container body-content">
+                        <div class="row" style="align-items: center;">
+                            <div class="col-md-2">&nbsp;</div>
+                            <div class="col-md-8" style="align-content: center; align-items: center; align-self: center;">
+                                <hr />
+                                <p>&copy; <%: DateTime.Now.Year %> - Web Maintenance Application</p>
+                            </div>
+                            <div class="col-md-2">&nbsp;</div>
+                        </div>
+                    </div>
                 </td>
 
             </tr>
